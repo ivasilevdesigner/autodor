@@ -1,0 +1,44 @@
+<section id="registration" class="section-registration">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center">Регистрация</h1>
+                <form id="sendForm" name="sendForm">
+                    <div class="row">
+                        <div class="col-md-8 col-12">
+                            <div class="form-row">
+                                <div class="form-group col-md-6 col-12"><input id="fio" name="fio" placeholder="Ваше ФИО"class="form-control" maxlength="50" type="text" required></div>
+                                <div class="form-group col-md-6 col-12"><input id="email" placeholder="Ваш e-mail" name="email" class="form-control" maxlength="50" type="email" required></div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6 col-12"><input id="phone" placeholder="Ваш телефон" name="phone" maxlength="20" class="form-control" type="tel" required></div>
+                                <div class="form-group col-md-6 col-12">
+                                    <select class="form-control " id="category" name="category">
+                                        <option value="0" selected disabled hidden>Выберите категорию</option>
+                                        <option value="1">Коммерческие компании (участие платное)</option>
+                                        <option value="2">Государственные структуры, отраслевые ассоциации и некоммерческие организации</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6 col-12"><input id="organization" name="organization" placeholder="Название организации"class="form-control" maxlength="50" type="text" required></div>
+                                <div class="form-group col-md-6 col-12"><input id="position" placeholder="Должность" name="position" class="form-control" maxlength="50" type="text" required></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-12">
+                            <div class="form-row">
+                                <div class="form-group col-12"><button class="btn" type="button" onclick="bindContactForm()">Отправить заявку</button></div>
+                            </div>
+                            <div class="form-row">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input form-control" checked id="accept">
+                                    <label for="accept" class="custom-control-label"><small>Я согласен на обработку персональных данных, получение рассылки, а также с условиями <a href="#" target="_blank">Политики конфиденциальности</a></small></label>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

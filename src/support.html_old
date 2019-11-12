@@ -1,0 +1,203 @@
+
+<section class="section-support" id="support">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center">Информационные партнеры</h1>
+            </div>
+        </div>
+        <div class="row blog d-none d-md-flex">
+            <div class="col-md-12">
+                <div id="blogCarousel" class="carousel slide" data-ride="carousel">    
+
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <a href="http://23vek.ru/" target="_blank">
+                                        <img src="img/23vek.png" srcset="img/23vek@2x.png 2x" alt="23 Век" title="23 Век" style="max-width:100%;">
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="http://1234g.ru/" target="_blank">
+                                        <img src="img/1234g.png" srcset="img/1234g@2x.png" alt="Портал 1234g.ru" title="Портал 1234g.ru" style="max-width:100%;">
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="http://rosacademtrans.ru/" target="_blank">
+                                        <img src="img/ATI.png" srcset="img/ATI@2x.png" alt="агентство транспортной информации" title="агентство транспортной информации" style="max-width:100%;">
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="http://dortransport.com/" target="_blank">
+                                        <img src="img/dt.png" srcset="img/dt@2x.png" alt="дороги и транспорт" title="дороги и транспорт" style="max-width:100%;">
+                                    </a>
+                                </div>
+                            </div>
+                            <!--.row-->
+                        </div>
+                        <!--.item-->
+
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <a href="https://www.dorvest.ru/" target="_blank">
+                                        <img src="img/dorvest.png" srcset="img/dorvest@2x.png" alt="Дорожная держава" title="Дорожная держава" style="max-width:100%;">
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="http://www.logistika-prim.ru/" target="_blank">
+                                        <img src="img/logistics.png" srcset="img/logistics@2x.png" alt="журнал логистика" title="журнал логистика" style="max-width:100%;">
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="http://mirpress.ru/" target="_blank">
+                                        <img src="img/mir_dorog.png" srcset="img/mir_dorog@2x.png" alt="мир дорог" title="мир дорог" style="max-width:100%;">
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="http://www.techinform-press.ru/" target="_blank">
+                                        <img src="img/technoform.png" srcset="img/technoform@2x.png" alt="дороги" title="дороги" style="max-width:100%;">
+                                    </a>
+                                </div>
+                            </div>
+                            <!--.row-->
+                        </div>
+                        <!--.item-->
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <a href="http://ros-region.com/" target="_blank">
+                                        <img src="img/rosregion.png" srcset="img/rosregion@2x.png" alt="регион развития" title="регион развития" style="max-width:100%;">
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="https://radio-avtodor.ru/" target="_blank">
+                                        <img src="img/radio-avtodor.png" srcset="img/radio-avtodor@2x.png" alt="радио автодор" title="радио автодор" style="max-width:100%;">
+                                    </a>
+                                </div>
+                            </div>
+                            <!--.row-->
+                        </div>
+                    </div>
+                    <!--.carousel-inner-->
+                    <a class="carousel-control-prev" href="#blogCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#blogCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                    <ol class="carousel-indicators">
+                        <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#blogCarousel" data-slide-to="1"></li>
+                        <li data-target="#blogCarousel" data-slide-to="2"></li>
+                    </ol>   
+                </div>
+                <!--.Carousel-->
+
+            </div>
+        </div>
+        <div class="row blog d-flex d-md-none">
+                <div class="col-md-12">
+                    <div id="blogCarousel-m" class="carousel slide" data-ride="carousel">    
+
+                        <!-- Carousel items -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <a href="http://23vek.ru/" target="_blank">
+                                            <img src="img/23vek.png" srcset="img/23vek@2x.png" alt="23 Век" title="23 Век" style="max-width:100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="http://1234g.ru/" target="_blank">
+                                            <img src="img/1234g.png" srcset="img/1234g@2x.png" alt="Портал 1234g.ru" title="Портал 1234g.ru" style="max-width:100%;">
+                                        </a>
+                                    </div>
+                                </div>
+                                <!--.row-->
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <a href="http://rosacademtrans.ru/" target="_blank">
+                                            <img src="img/ATI.png" srcset="img/ATI@2x.png" alt="агентство транспортной информации" title="агентство транспортной информации" style="max-width:100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="http://dortransport.com/" target="_blank">
+                                            <img src="img/dt.png" srcset="img/dt@2x.png" alt="дороги и транспорт" title="дороги и транспорт" style="max-width:100%;">
+                                        </a>
+                                    </div>
+                                </div>
+                                <!--.row-->
+                            </div>
+                            <!--.item-->
+
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <a href="https://www.dorvest.ru/" target="_blank">
+                                            <img src="img/dorvest.png" srcset="img/dorvest@2x.png" alt="Дорожная держава" title="Дорожная держава" style="max-width:100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="http://www.logistika-prim.ru/" target="_blank">
+                                            <img src="img/logistics.png" srcset="img/logistics@2x.png" alt="журнал логистика" title="журнал логистика" style="max-width:100%;">
+                                        </a>
+                                    </div>
+                                </div>
+                                <!--.row-->
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <a href="http://mirpress.ru/" target="_blank">
+                                            <img src="img/mir_dorog.png" srcset="img/mir_dorog@2x.png" alt="мир дорог" title="мир дорог" style="max-width:100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="http://www.techinform-press.ru/" target="_blank">
+                                            <img src="img/technoform.png" srcset="img/technoform@2x.png" alt="дороги" title="дороги" style="max-width:100%;">
+                                        </a>
+                                    </div>
+                                </div>
+                                <!--.row-->
+                            </div>
+                            <!--.item-->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <a href="http://ros-region.com/" target="_blank">
+                                            <img src="img/rosregion.png" srcset="img/rosregion@2x.png" alt="регион развития" title="регион развития" style="max-width:100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="https://radio-avtodor.ru/" target="_blank">
+                                            <img src="img/radio-avtodor.png" srcset="img/radio-avtodor@2x.png" alt="радио автодор" title="радио автодор" style="max-width:100%;">
+                                        </a>
+                                    </div>
+                                </div>
+                                <!--.row-->
+                            </div>
+                        </div>
+                        <!--.carousel-inner-->
+                        <ol class="carousel-indicators">
+                            <li data-target="#blogCarousel-m" data-slide-to="0" class="active"></li>
+                            <li data-target="#blogCarousel-m" data-slide-to="1"></li>
+                            <li data-target="#blogCarousel-m" data-slide-to="2"></li>
+                            <li data-target="#blogCarousel-m" data-slide-to="3"></li>
+                            <li data-target="#blogCarousel-m" data-slide-to="4"></li>
+                        </ol> 
+                    </div>
+                    <!--.Carousel-->
+
+                </div>
+            </div>
+    </div>
+</section>
