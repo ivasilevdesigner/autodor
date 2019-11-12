@@ -345,10 +345,12 @@ header {
         max-width: 170px;
         height: auto;
         margin: 15px;
+        margin-bottom: 50px;
+        max-height: 90px;
     }
 }
 .section-support {
-    padding-top: 100px;
+    padding-top: 30px;
     padding-bottom: 70px;
     ul {
         display: flex;
@@ -496,12 +498,21 @@ footer {
         width: 80%;
     }
     h1 {
-        margin-bottom: 50px;
+        margin-bottom: 0px;
     }
     strong {
         font-weight: 700;
         margin-bottom: 20px;
         display: block;
+    }
+    .partners-header {
+        margin-bottom: 50px;
+    }
+    .partners-contacts {
+        p {
+            margin-bottom: 0px;
+        }
+        margin-bottom: 30px;
     }
     ul {
         li {
@@ -745,6 +756,9 @@ and (max-device-width : 568px) {
         }
         h1 {
             margin-top: 20px;
+            margin-bottom: 0px;
+        }
+        .partners-header {
             margin-bottom: 20px;
         }
     }
