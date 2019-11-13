@@ -332,7 +332,8 @@ header {
         }
     }
 }
-.section-partners {
+.section-partners,
+.section-including {
     ul {
         display: flex;
         align-items: center;
@@ -348,6 +349,10 @@ header {
         margin-bottom: 50px;
         max-height: 90px;
     }
+}
+.section-including ul {
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .section-support {
     padding-top: 30px;
@@ -735,7 +740,7 @@ and (max-device-width : 568px) {
 
     }
     
-    .section-support, .section-greetings {
+    .section-support, .section-greetings, .section-including {
         h1 {
             margin-bottom: 50px;
         }
