@@ -666,7 +666,25 @@ footer {
 h2 {
     margin-bottom: 1rem
 }
-
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+    .section-partners ul.general-partner, section-including ul.including-list {
+        display:block;
+    }
+    .general-partner li, .including-list li {
+        width:100%;
+        position: relative;
+        display: block;
+    }
+    .general-partner li {
+    margin-left: 0px;
+    margin-right: 0px; 
+    }
+    .including-list li {
+        margin-bottom: 1.4rem;
+    }
+}
 
 @media only screen 
 and (min-device-width : 320px) 
