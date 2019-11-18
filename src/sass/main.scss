@@ -664,6 +664,45 @@ footer {
     margin-left: 2em;
     margin-right: 2em
 }
+.section-first .participation-logos { // классы для логотипов парнеров в первой секции
+    ul {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 12px;
+        li {
+            list-style: none;
+        }
+    }
+    img {
+        max-width: 200px;
+        height: auto;
+        margin: 32px;
+        margin-top: 0px;
+        max-height: 60px;
+    }
+    img:first-child {
+        margin-left: 0px;
+    }
+    img.guobdd {
+            max-height: 80px;
+        }
+    p {
+        font-size: 1em;
+        font-weight: 200;
+        opacity: 0.8;
+        margin-top: 32px;
+    }
+}
+.section-first .participation-logos {
+    ul {
+        justify-content: space-around;
+        /*flex-wrap: wrap;*/
+        img {
+            margin-bottom: 0px;
+        }
+    }
+}
 
 @media only screen 
 and (min-device-width : 320px) 
@@ -687,6 +726,7 @@ and (max-device-width : 568px) {
     }
     .section-first {
         font-size: 11px;
+        height: 114vh; // увелирил высоту картинки, чтобы логотипы не выезжали
         .wrapper {
             margin-top: 200px;
         }
@@ -761,7 +801,7 @@ and (max-device-width : 568px) {
             padding: 0;
         }
     }
-    .section-partners ul.general-partner, .section-including ul.including-list {
+    .section-partners ul.general-partner, .section-including ul.including-list, .section-partners ul {
         flex-direction: column;
     }
     .general-partner li {
@@ -784,9 +824,23 @@ and (max-device-width : 568px) {
         h1 {
             margin-top: 20px;
             margin-bottom: 0px;
+            font-size:24px;
         }
         .partners-header {
             margin-bottom: 20px;
+        }
+    }
+    .section-first .participation-logos { // классы для логотипов парнеров в первой секции
+        ul {
+            margin-top: -20px; // поднял блок с лого выше
+        }
+        img { // уменьшил размер лого на мобилке
+            max-width: 120px;
+            margin: 24px;
+            max-height: 40px;
+        }    
+        img.guobdd {
+            max-height: 60px;
         }
     }
 }
