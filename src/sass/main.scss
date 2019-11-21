@@ -145,6 +145,34 @@ header {
     .wrapper {
         margin-top: 140px;
     }
+    .participation-logos {
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            margin-top: 12px;
+            li {
+                list-style: none;
+                img {
+                    max-width: 200px;
+                    height: auto;
+                    margin: 32px;
+                    margin-left: 0px;
+                    margin-top: 0px;
+                    max-height: 60px;
+                    &.guobdd {
+                        max-height: 80px;
+                    }
+                }
+            }
+        }
+        p {
+            font-size: 1em;
+            font-weight: 300;
+            opacity: 0.8;
+            margin-top: 32px;
+        }
+    }
 }
 .section-registration {
     padding-top: 30px;
@@ -350,6 +378,9 @@ header {
         margin-bottom: 50px;
         max-height: 90px;
     }
+}
+.section-partners ul img.soyuzdorproekt {
+    max-width: 300px;
 }
 .section-including {
     padding-bottom: 50px;
@@ -664,49 +695,6 @@ footer {
     margin-left: 2em;
     margin-right: 2em
 }
-.section-first .participation-logos { // классы для логотипов парнеров в первой секции
-    ul {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 12px;
-        li {
-            list-style: none;
-        }
-    }
-    img {
-        max-width: 200px;
-        height: auto;
-        margin: 32px;
-        margin-top: 0px;
-        max-height: 60px;
-    }
-    img:first-child {
-        margin-left: 0px;
-    }
-    img.guobdd {
-            max-height: 80px;
-        }
-    p {
-        font-size: 1em;
-        font-weight: 200;
-        opacity: 0.8;
-        margin-top: 32px;
-    }
-}
-.section-first .participation-logos {
-    ul {
-        justify-content: space-around;
-        /*flex-wrap: wrap;*/
-        img {
-            margin-bottom: 0px;
-        }
-    }
-}
-.section-programm .time.level2 { // Сделал меньше шрифт для времени параллельных сессий
-    font-size: 20px;
-} 
-
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 568px) { 
@@ -732,6 +720,23 @@ and (max-device-width : 568px) {
         height: 114vh; // увелирил высоту картинки, чтобы логотипы не выезжали
         .wrapper {
             margin-top: 200px;
+        }
+        .participation-logos { // классы для логотипов парнеров в первой секции
+            ul {
+                margin-top: -20px; // поднял блок с лого выше
+                li {
+                    img { // уменьшил размер лого на мобилке
+                        max-width: 120px;
+                        margin: 24px;
+                        margin-left: 0;
+                        max-height: 40px;
+                        &.guobdd {
+                            max-height: 60px;
+                        }
+                    } 
+                }
+
+            }
         }
     }
     .section-registration {
@@ -807,6 +812,9 @@ and (max-device-width : 568px) {
     .section-partners ul.general-partner, .section-including ul.including-list, .section-partners ul {
         flex-direction: column;
     }
+    .section-partners ul img.soyuzdorproekt {
+        max-width: 250px;
+    }
     .general-partner li {
         margin-left: 0px;
         margin-right: 0px; 
@@ -831,19 +839,6 @@ and (max-device-width : 568px) {
         }
         .partners-header {
             margin-bottom: 20px;
-        }
-    }
-    .section-first .participation-logos { // классы для логотипов парнеров в первой секции
-        ul {
-            margin-top: -20px; // поднял блок с лого выше
-        }
-        img { // уменьшил размер лого на мобилке
-            max-width: 120px;
-            margin: 24px;
-            max-height: 40px;
-        }    
-        img.guobdd {
-            max-height: 60px;
         }
     }
 }
